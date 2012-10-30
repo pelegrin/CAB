@@ -1,0 +1,77 @@
+
+/* Stylesheet content from css/favorites1.css in folder iphone */
+#pinbutton {
+	position:relative;
+	width:99px;
+	height:39px;
+	background-image:url(../images/submit_button.png);
+	top:80px;
+	left:120px;
+}
+
+#pininput {
+	position:relative;
+	left:80px;
+	top:-48px;
+	width:200px;
+	background-color:#FFFFFF;
+	-webkit-border-bottom-left-radius:0.5em;
+	border-bottom-left-radius:0.5em;
+	-o-border-bottom-left-radius:0.5em;
+	-ms-border-bottom-left-radius:0.5em;
+	-moz-border-radius-bottomleft:0.5em;
+	-webkit-border-bottom-right-radius:0.5em;
+	border-bottom-right-radius:0.5em;
+	-o-border-bottom-right-radius:0.5em;
+	-ms-border-bottom-right-radius:0.5em;
+	-moz-border-radius-bottomright:0.5em;
+	-webkit-border-top-left-radius:0.5em;
+	border-top-left-radius:0.5em;
+	-o-border-top-left-radius:0.5em;
+	-ms-border-top-left-radius:0.5em;
+	-moz-border-radius-topleft:0.5em;
+	-webkit-border-top-right-radius:0.5em;
+	border-top-right-radius:0.5em;
+	-o-border-top-right-radius:0.5em;
+	-ms-border-top-right-radius:0.5em;
+	-moz-border-radius-topright:0.5em;
+	height:25px;
+	color:#4C4C4C;
+	font-family:MyriadNorm;
+	font-size:14pt;
+	padding-left:10px;
+	border:2px solid #A7A7A7;
+}
+
+#pintitle {
+	position:relative;
+	top:2px;
+	left:20px;
+	width:50px;
+	height:45px;
+	font-family:MyriadBold;
+	color:#000000;
+	font-size:18pt;
+	padding-top:7px;
+}
+
+#pin {
+	position:relative;
+	top:50px;
+	left:0;
+	width:100%;
+	height:45px;
+	background-color:#B8B8B8;
+}
+
+#infomessage {
+	position:relative;
+	top:30px;
+	width:100%;
+	left:0;
+	height:20px;
+	font-family:MyriadNorm;
+	color:#CC4923;
+	text-align:center;
+}
+

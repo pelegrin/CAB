@@ -1,0 +1,207 @@
+
+/* Stylesheet content from css/favorites3.css in folder iphone */
+#Fmaindescription {
+	position:relative;
+	left:20px;
+	height:148px;
+	top:18px;
+	width:280px;
+}
+
+
+#Fnavigationbar {
+	width:100%;
+	height:45px;
+	background-color:#CCCCCC;
+}
+
+#Fphonetext {
+	position:absolute;
+	left:60px;
+	width:200px;
+	height:25px;
+	font-family:MyriadBold;
+	font-size:14pt;
+	top:8px;
+	color:#FFFFFF;
+}
+
+#Femailtext {
+	position:absolute;
+	left:60px;
+	width:200px;
+	height:25px;
+	font-family:MyriadBold;
+	color:#FFFFFF;
+	font-size:11pt;
+	top:13px;
+}
+
+#Fname {
+	position:absolute;
+	left:115px;
+	width:165px;
+	top:15px;
+	height:30px;
+	font-family:MyriadNorm;
+	font-size:18pt;
+}
+
+#Flastname {
+	position:absolute;
+	left:115px;
+	width:165px;
+	height:30px;
+	font-family:MyriadBold;
+	top:40px;
+	font-size:18pt;
+	font-weight:800;
+}
+
+#Ftitle {
+	position:absolute;
+	left:115px;
+	width:165px;
+	height:30px;
+	font-family:MyriadBold;
+	font-size:12pt;
+	top:70px;
+}
+
+#Ffavoritesbutton {
+	left:81px;
+	position:relative;
+	top:65px;
+	width:155px;
+	height:40px;
+	background-color:#727272;
+	-webkit-border-bottom-left-radius:0.5em;
+	border-bottom-left-radius:0.5em;
+	-o-border-bottom-left-radius:0.5em;
+	-ms-border-bottom-left-radius:0.5em;
+	-moz-border-radius-bottomleft:0.5em;
+	-webkit-border-bottom-right-radius:0.5em;
+	border-bottom-right-radius:0.5em;
+	-o-border-bottom-right-radius:0.5em;
+	-ms-border-bottom-right-radius:0.5em;
+	-moz-border-radius-bottomright:0.5em;
+	-webkit-border-top-left-radius:0.5em;
+	border-top-left-radius:0.5em;
+	-o-border-top-left-radius:0.5em;
+	-ms-border-top-left-radius:0.5em;
+	-moz-border-radius-topleft:0.5em;
+	-webkit-border-top-right-radius:0.5em;
+	border-top-right-radius:0.5em;
+	-o-border-top-right-radius:0.5em;
+	-ms-border-top-right-radius:0.5em;
+	-moz-border-radius-topright:0.5em;
+	font-family:MyriadNorm;
+	color:#FFFFFF;
+	font-size:14pt;
+	text-align:center;
+	padding-top:6px;
+}
+
+#Femailimg {
+	position:relative;
+	top:0px;
+	left:10px;
+	width:47px;
+	height:38px;
+	background-image:url(../images/email.png);
+}
+
+#Fphoneimg {
+	position:relative;
+	background-image:url(../images/phone.png);
+	width:47px;
+	height:38px;
+	top:0px;
+	left:10px;
+}
+
+#Femail {
+	position:relative;
+	left:20px;
+	top:47px;
+	width:280px;
+	height:40px;
+	background-color:#CCCCCC;
+	-webkit-border-bottom-left-radius:4px;
+	border-bottom-left-radius:4px;
+	-o-border-bottom-left-radius:4px;
+	-ms-border-bottom-left-radius:4px;
+	-moz-border-radius-bottomleft:4px;
+	-webkit-border-bottom-right-radius:4px;
+	border-bottom-right-radius:4px;
+	-o-border-bottom-right-radius:4px;
+	-ms-border-bottom-right-radius:4px;
+	-moz-border-radius-bottomright:4px;
+}
+
+#Fphone {
+	position:relative;
+	top:45px;
+	left:20px;
+	width:280px;
+	height:40px;
+	background-color:#CCCCCC;
+	-webkit-border-top-left-radius:4px;
+	border-top-left-radius:4px;
+	-o-border-top-left-radius:4px;
+	-ms-border-top-left-radius:4px;
+	-moz-border-radius-topleft:4px;
+	-webkit-border-top-right-radius:4px;
+	border-top-right-radius:4px;
+	-o-border-top-right-radius:4px;
+	-ms-border-top-right-radius:4px;
+	-moz-border-radius-topright:4px;
+}
+
+#Fplaceholder {
+	position:relative;
+	left:4px;
+	width:91px;
+	height:133px;
+	background-image:url(../images/photo_placeholder.png);
+	top:15px;
+}
+
+#Fphotoholder {
+	position:relative;
+	height:148px;
+	background-color:#CCCCCC;
+	-webkit-border-bottom-left-radius:4px;
+	border-bottom-left-radius:4px;
+	-o-border-bottom-left-radius:4px;
+	-ms-border-bottom-left-radius:4px;
+	-moz-border-radius-bottomleft:4px;
+	-webkit-border-bottom-right-radius:4px;
+	border-bottom-right-radius:4px;
+	-o-border-bottom-right-radius:4px;
+	-ms-border-bottom-right-radius:4px;
+	-moz-border-radius-bottomright:4px;
+	-webkit-border-top-left-radius:4px;
+	border-top-left-radius:4px;
+	-o-border-top-left-radius:4px;
+	-ms-border-top-left-radius:4px;
+	-moz-border-radius-topleft:4px;
+	-webkit-border-top-right-radius:4px;
+	border-top-right-radius:4px;
+	-o-border-top-right-radius:4px;
+	-ms-border-top-right-radius:4px;
+	-moz-border-radius-topright:4px;
+	width:100px;
+	top:0;
+	left:0;
+}
+
+
+#Fbackbutton {
+	position:relative;
+	left:20px;
+	width:60px;
+	height:30px;
+	background-image:url(../images/back_button.png);
+	top:7px;
+}

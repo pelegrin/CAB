@@ -1,0 +1,39 @@
+Applications generated using the Worklight Mobile Platform contain a Worklight runtime. 
+The Worklight runtime is distributed together with the application and includes open-source software. 
+The list of open-source software used may vary depending on the target environments (e.g. iOS, Android, Windows Phone). 
+The full list is as follows:
+
+Software 			Target environment		URL to software
+AIRAliases			Air						http://www.koders.com/javascript/fid833F9685C5316B720668D19885F08E2A38F2991F.aspx?s=window#L34
+AirInspector		Air						http://help.adobe.com/en_US/AIR/1.5/devappshtml/WS5b3ccc516d4fbf351e63e3d118666ade46-7ed2.html
+Apple Samples 		iOS						http://developer.apple.com/library/ios/#samplecode/Reachability/Introduction/Intro.html
+ASIHttpRequest		iOS						http://allseeing-i.com/ASIHTTPRequest/
+Block TEA 			 						http://www.movable-type.co.uk/scripts/tea-block.html
+Browser detect			 					http://www.quirksmode.org/js/detect.html
+Busy.js 			Desktop & Web			http://busy.netzgesta.de
+DeterminingOSVersion			 			http://www.cocoadev.com/index.pl?DeterminingOSVersion
+Deusty Gzip compression			 			http://deusty.blogspot.com/2007/07/gzip-compressiondecompression.html
+ensure.js			 						http://ensure.codeplex.com/
+Gibberish-AES 			 					https://github.com/mdp/gibberish-aes
+JSON.Net			WP						http://json.codeplex.com/
+JSON::XS			 						http://search.cpan.org/~mlehmann/JSON-XS/
+json2.js			 						http://www.json.org/js.html
+JSON-framework 		iOS		 				https://github.com/stig/json-framework/
+jsonkit			 							https://github.com/callback/callback-ios/tree/master/PhoneGapLib/Classes/JSON
+Lightbox JS			 						http://lokeshdhakar.com/projects/lightbox/
+Mat lacey, Windows Phone PhoneGap implementation			
+					WP						https://github.com/mrlacey/phonegap-wp7
+MiniZip				iOS						http://www.winimage.com/zLibDll/minizip.html
+NSData+Base64.h		iOS						https://github.com/callback/callback-ios/blob/master/PhoneGapLib/Classes/NSData+Base64.h
+Password-Based Key Derivation Function 		http://anandam.name/pbkdf2
+Phonegap			 						http://www.phonegap.com/
+LoadingView			iOS						https://github.com/phonegap/phonegap-plugins/blob/master/iPhone/NotificationEx/LoadingView.h
+NotificationEx		iOS						https://github.com/phonegap/phonegap-plugins/tree/master/iPhone/NotificationEx
+Prototype 			 						http://www.prototypejs.org/
+SHA-1			 							http://pajhome.org.uk/crypt/md5
+Android C2DM 		Android					http://code.google.com/p/chrometophone/source/browse/trunk/android/c2dm/com/google/android/c2dm/?r=18
+swfobj.js			Air						http://code.google.com/p/swfobject
+xilinus			 							http://prototype-window.xilinus.com/download.html
+Ziparchive 			iOS						http://code.google.com/p/ziparchive/
+Zlib				iOS						http://www.zlib.net/
+zpipe.c				iOS						http://www.zlib.net/zpipe.c

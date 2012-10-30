@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Attribute "id" must be identical to application folder name -->
+<application xmlns="http://www.worklight.com/application-descriptor" id="CAB" platformVersion="5.5.0">
+    <displayName>CAB</displayName>
+    <description>Company's Address Book demo</description>
+    <author>
+        <name>Dmitry Savustjan</name>
+        <email>d.savustjan@ru.ibm.com</email>
+        <homepage>http://www.ibm.ru</homepage>
+        <copyright>IBM Russia</copyright>
+    </author>
+    <height>460</height>
+    <width>320</width>
+    <mainFile>CAB.html</mainFile>
+    <thumbnailImage>common/images/thumbnail.png</thumbnailImage>
+    <iphone bundleId="com.CAB" version="1.0">
+        <worklightSettings include="true"/>
+        <security>
+            <encryptWebResources enabled="false"/>
+            <testWebResourcesChecksum enabled="false" ignoreFileExtensions="png, jpg, jpeg, gif, mp4, mp3"/>
+        </security>
+    </iphone>
+    <android version="1.0">
+        <worklightSettings include="true"/>
+        <security>
+            <encryptWebResources enabled="false"/>
+            <testWebResourcesChecksum enabled="false" ignoreFileExtensions="png, jpg, jpeg, gif, mp4, mp3"/>
+            <publicSigningKey>Replace this text with the public key of the certificate with which you sign the APK. For details see the Worklight Developer's Reference Guide.</publicSigningKey>
+        </security>
+    </android>
+    <worklightServerRootURL>http://192.168.0.3:8080</worklightServerRootURL>
+</application>

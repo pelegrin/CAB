@@ -1,0 +1,158 @@
+
+/* Stylesheet content from css/CAB.css in folder common */
+/*Worklight container div */
+#content {
+	height: 460px;
+	margin: 0 auto;
+	width: 320px;
+}
+/* Stylesheet content from css/CAB.css in folder iphone */
+/* this CSS file extends the application CSS file found under common\css */
+@font-face { src: url('../images/MyriadPro-Cond.otf'); font-family: MyriadNorm; }
+@font-face { src: url('../images/MyriadPro-BoldCond.otf'); font-family: MyriadBold; }
+
+A:link {text-decoration: none}
+A:visited {text-decoration: none}
+A:active {text-decoration: none}
+A:hover {text-decoration: none; color: blue;}
+
+.icon {
+	position:relative;
+	width:28px;
+	height:28px;
+	left:260px;
+	background-image:url(../images/arrow_icon.png);
+	background-repeat:no-repeat;
+	top:-32px;
+}
+
+.title {
+	width:250px;
+	font-family:inherit;
+	font-size:9pt;
+	text-align:inherit;
+}
+
+.cell {
+	width: 320px;
+	position:relative;
+	top:0;
+	left:0;
+	height:40px;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:20px;
+	color:#4C4C4C;
+	font-family:'American Typewriter';
+	font-size:13pt;
+	border-top:1px solid #000000;
+	border-bottom:1px solid #000000;	
+}
+
+.lastname {
+	font-weight:bold;
+}
+
+#welcometext {
+	position:relative;
+	left:0;
+	padding-right:30px;
+	padding-left:30px;
+	color:#4C4C4C;
+	font-family:'American Typewriter';
+	font-size:11pt;
+	text-shadow:rgb(153, 153, 153) 2px 2px 3px;
+	top:20px;
+}
+
+#bodytext {
+	position:relative;
+	margin-top:0px;
+	top:0;
+	left:0;
+}
+
+#search_icon {
+	position:absolute;
+	width:28px;
+	height:23px;
+	left:24px;
+	background-image:url(../images/search.png);
+	top:14px;
+}
+
+#search_field {
+	-webkit-border-top-left-radius:1em;
+	border-top-left-radius:1em;
+	-o-border-top-left-radius:1em;
+	-ms-border-top-left-radius:1em;
+	-moz-border-radius-topleft:1em;
+	-webkit-border-top-right-radius:1em;
+	border-top-right-radius:1em;
+	-o-border-top-right-radius:1em;
+	-ms-border-top-right-radius:1em;
+	-moz-border-radius-topright:1em;
+	-webkit-border-bottom-right-radius:1em;
+	border-bottom-right-radius:1em;
+	-o-border-bottom-right-radius:1em;
+	-ms-border-bottom-right-radius:1em;
+	-moz-border-radius-bottomright:1em;
+	-webkit-border-bottom-left-radius:1em;
+	border-bottom-left-radius:1em;
+	-o-border-bottom-left-radius:1em;
+	-ms-border-bottom-left-radius:1em;
+	-moz-border-radius-bottomleft:1em;
+	background-color:#FFFFFF;
+	height:32px;
+	position:relative;
+	left:15px;
+	top:4px;
+	padding-left:32px;
+	font:inherit;
+	font-family:'American Typewriter';
+	color:#4C4C4C;
+	font-size:11pt;
+	width:250px;
+	border:2px solid #A7A7A7;
+}
+
+#search_bar {
+	height:50px;
+	background-color:#CCCCCC;
+	border-style:inherit;
+	border-width:inherit;
+	border-left-color:transparent;
+	border-right-color:transparent;
+	position:relative;
+	top:0;
+	width:320px;
+	border-top:1px solid #727272;
+	border-bottom:1px solid #727272;
+}
+
+.noconnection {
+	position:fixed;
+	top:0px;
+	left:0px;
+	height:410px;
+	width:320px;
+	background-image:url(../images/no_connection.png);
+	font-family:MyriadBold;
+	color:#FFFFFF;
+	font-size:20pt;
+	padding-top:115px;
+	text-align:center;
+}
+
+/* body should stretch in an iPhone application */
+body {
+	height: auto;
+	overflow: auto;
+}
+
+/*WorkLight container div */
+#content {
+	height:410px;
+	width:320px;
+	margin:0px auto 0px auto;
+}
