@@ -10,7 +10,7 @@
 				 or using a place holder: ${project.db.jndi-name} 			-->
 			<dataSourceDefinition>
 				<driverClass>com.mysql.jdbc.Driver</driverClass>
-				<url>jdbc:mysql://192.168.0.3:3306/cab</url>
+				<url>jdbc:mysql://localhost:3306/cab</url>
 				<user>redbook</user>
 				<password>saw215</password>
 			</dataSourceDefinition>

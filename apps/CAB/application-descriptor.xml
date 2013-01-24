@@ -13,7 +13,7 @@
     <width>320</width>
     <mainFile>CAB.html</mainFile>
     <thumbnailImage>common/images/thumbnail.png</thumbnailImage>
-    <iphone bundleId="com.CAB" version="1.0">
+    <iphone bundleId="ru.ibm.iphone.CAB" version="1.0">
         <worklightSettings include="true"/>
         <security>
             <encryptWebResources enabled="false"/>
@@ -28,5 +28,15 @@
             <publicSigningKey>Replace this text with the public key of the certificate with which you sign the APK. For details see the Worklight Developer's Reference Guide.</publicSigningKey>
         </security>
     </android>
-    <worklightServerRootURL>http://192.168.0.3:8080</worklightServerRootURL>
+    <ipad bundleId="com.CAB" version="1.0">
+        <worklightSettings include="true"/>
+        <security>
+            <encryptWebResources enabled="false"/>
+            <testWebResourcesChecksum enabled="false" ignoreFileExtensions="png, jpg, jpeg, gif, mp4, mp3"/>
+        </security>
+    </ipad>
+    <!-- Demo production -->
+<!--     <worklightServerRootURL>http://192.168.0.3:8080</worklightServerRootURL> -->
+	<!-- Development -->
+    <worklightServerRootURL>http://${local.IPAddress}:8080</worklightServerRootURL>
 </application>

@@ -31,7 +31,8 @@
 	font-family:'American Typewriter';
 	font-size:13pt;
 	border-top:1px solid #000000;
-	border-bottom:1px solid #000000;		
+	border-bottom:1px solid #000000;
+	border-color:#FF0000;		
 }
 
 .lastname {

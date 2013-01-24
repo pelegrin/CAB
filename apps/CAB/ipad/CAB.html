@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0" />
+        <title>CAB</title>
+        <link rel="shortcut icon" href="images/favicon.png" />
+        <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+        <link rel="stylesheet" href="css/reset.css" />
+        <link rel="stylesheet" href="css/CAB.css" />
+	</head>
+	<body onload="WL.Client.init(CAB.network.options)" id="content">
+		<div id="left" >
+			<div class="nav_button" id="nav_button1" onClick="IPAD.navigator.setBadge(this)">
+				<div id="icon_button1" class="icon_button" name="black_search"></div>
+			</div>
+			<div class="nav_button" id="nav_button2" onClick="IPAD.navigator.setBadge(this)">
+				<div id="icon_button2" class="icon_button" name="profile"></div>
+			</div>
+			<div class="nav_button" id="nav_button3" onClick="IPAD.navigator.setBadge(this)">
+				<div id="icon_button3" class="icon_button" name="favorites"></div>
+			</div>
+			<div id="left_content"></div>
+		</div>
+		<div id="main"></div>
+    	<div id="app_language"></div>
+		<script src="js/ipad.js"></script>
+	    <script src="js/CAB.js"></script>
+	    <script src="js/messages.js"></script>
+	    <script src="js/auth.js"></script>
+	    <script src='js/jquery-ui-1.8.19.custom.min.js'></script>
+	    <!-- FOR DEBUG in Weinre-->
+   		<script src='http://localhost:8081/target/target-script-min.js#anonymous'></script>   		
+		    		
+	</body>
+</html>

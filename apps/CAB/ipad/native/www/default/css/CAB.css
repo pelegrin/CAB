@@ -1,0 +1,228 @@
+
+/* Stylesheet content from css/CAB.css in folder common */
+/*Worklight container div */
+#content {
+	height: 460px;
+	margin: 0 auto;
+	width: 320px;
+}
+/* Stylesheet content from css/CAB.css in folder ipad */
+/* this CSS file extends the application CSS file found under common\css */
+@font-face { src: url('../images/MyriadPro-Cond.otf'); font-family: MyriadNorm; }
+@font-face { src: url('../images/MyriadPro-BoldCond.otf'); font-family: MyriadBold; }
+
+A:link {text-decoration: none}
+A:visited {text-decoration: none}
+A:active {text-decoration: none}
+A:hover {text-decoration: none; color: blue;}
+
+#content {
+	margin:0px auto 0px auto;
+	height:768px; width:1024px;
+}
+#left {
+	position:fixed;
+	width:412px;
+	left:0;
+	top:0;
+	height:768px;
+	background-image:url(../images/leather_background_hires.jpg);
+	background-size:412px 768px;
+	border-right:2px solid #000000;
+}
+#main {
+	position:absolute;
+	width:612px;
+	left:412px;
+	top:0px;
+	height:768px;
+}
+.nav_button {
+	position:absolute;
+	top:0;
+	width:60px;
+	height:80px;
+	border-left:1px solid black;
+	border-right:1px solid black;
+	border-bottom:1px solid black;
+	background-color:#FF982E;
+	border-radius:4px;
+	box-shadow: 8px 8px 8px rgba(0,0,0,0.5);
+	background-image:-webkit-linear-gradient(left,
+	rgba(255, 153, 46, 0.8),
+	rgba(255, 153, 46, 0.2) 20%,
+	rgba(255, 255, 255, 0.8) 90%);		
+}
+.nav_button_selected {
+	position:absolute;
+	top:0;
+	width:60px;
+	height:80px;
+	border-left:1px solid black;
+	border-right:1px solid black;
+	border-bottom:1px solid black;
+	background-color:#C4592D;
+	border-radius:4px;
+	box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+	background-image:-webkit-linear-gradient(left,
+	rgba(196, 89, 46, 1),
+	rgba(196, 89, 46, 0.2) 60%,	rgba(255, 255, 255, 0.3) 90%
+);			
+}
+
+#nav_button1 {
+	left:60px;
+}
+
+#nav_button2 {
+	left:130px;
+}
+
+#nav_button3 {
+	left:200px;
+}
+
+.icon_button {
+	position:relative;
+	top:10px;
+	width:44px;
+	height:44px;
+	background-repeat-x:no-repeat;
+	background-repeat-y:no-repeat;
+	background-repeat:no-repeat;
+}
+
+#icon_button1 {
+	left:20px;
+	top:40px;
+	background-image:url(../images/black_search.png);
+}
+
+#icon_button2 {
+	left:15px;
+	top:40px;
+	background-image:url(../images/profile.png);
+}
+
+#icon_button3 {
+	left:20px;
+	top:40px;
+	background-image:url(../images/favorites.png);
+}
+
+#left_content {
+	position:absolute;
+	top: 150px;
+	width: 210px;
+	left: 60px;
+}
+
+/* css from iPhone app */
+.icon {
+	position:relative;
+	width:16px;
+	height:28px;
+	left:550px;
+	background-image:url(../images/arrow_icon.png);
+	top:-32px;
+}
+
+.title {
+	font-family:inherit;
+	font-size:9pt;
+	text-align:inherit;
+}
+
+.cell {
+	position:relative;
+	top:0;
+	left:0;
+	height:40px;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:20px;
+	color:#4C4C4C;
+	font-family:'American Typewriter';
+	font-size:13pt;
+	border-top:1px solid #000000;
+	border-bottom:1px solid #000000;
+}
+
+#bodytext {
+	position:relative;
+	top:48px;
+	left:0;
+}
+/* Modified CSS  */
+
+#search_bar {
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0.3);
+    position: relative;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.3);
+	height: 25px;
+}
+
+#search_bar input {
+    border: 1px solid #6E93A9;
+    border-radius: 10px;
+    padding: 2px 10px;
+    width: 200px;
+	color:black;
+    font-weight: normal;
+	font-size: 16px;
+}
+
+#welcometext {
+	position:relative;
+	left:0;
+	padding-right:30px;
+	padding-left:30px;
+	color:#FF982E;
+	font-family:'American Typewriter';
+	font-size:11pt;
+	text-shadow:rgb(153, 153, 153) 2px 2px 3px;
+	top:10px;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0.3);
+	box-shadow: 0 1px 2px rgba(0,0,0,0.3);
+}
+
+#bar {
+	position:fixed;
+	left:412px;
+	top:0px;
+	width:612px;
+	height:45px;
+	box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+	background-image:-webkit-linear-gradient(top,
+	rgba(0, 0, 0, 0.7),
+	rgba(0, 0, 0, 0.2) 60%,	rgba(255, 255, 255, 0.3) 90%
+);					
+}
+
+#noresult {
+	position:relative;
+	left:288px;
+	top:100px;
+	width:37px;
+	height:37px;
+	background-image:url(../images/noresults.png);
+	background-size: 37px 37px;
+	background-repeat:no-repeat;
+}
+
+
+/* Retina support 
+
+@media screen and (-webkit-device-pixel-ration: 1) {
+	#left {
+	background-image:url(../images/leather_background.jpg);		
+	}
+}
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+	#left {
+		background-image:url(../images/leather_background_hires.jpg);
+	}
+*/	
+}

@@ -1,0 +1,199 @@
+
+/* Stylesheet content from css/search2.css in folder ipad */
+#maindescription {
+	position:relative;
+	left:20px;
+	height:148px;
+	top:18px;
+}
+
+
+#navigationbar {
+	position:relative;
+	left:2px;
+	top:0px;
+	width:612px;
+	height:45px;
+	background-color:#CCCCCC;
+	background-image:-webkit-linear-gradient(top,
+	rgba(194, 194, 194, 1),
+	rgba(194, 194, 194, 0.2) 60%,	rgba(194, 194, 194, 0.6) 90%
+);						
+	box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+}
+
+#phonetext {
+	position:absolute;
+	left:60px;
+	height:25px;
+	font-family:MyriadBold;
+	font-size:14pt;
+	top:8px;
+	color:#FFFFFF;
+}
+
+#emailtext {
+	position:absolute;
+	left:60px;
+	height:25px;
+	font-family:MyriadBold;
+	color:#FFFFFF;
+	font-size:11pt;
+	top:13px;
+}
+
+#name {
+	position:absolute;
+	left:115px;
+	top:15px;
+	height:30px;
+	font-family:MyriadNorm;
+	font-size:18pt;
+}
+
+#lastname {
+	position:absolute;
+	left:115px;
+	height:30px;
+	font-family:MyriadBold;
+	top:40px;
+	font-size:18pt;
+	font-weight:800;
+}
+
+#title {
+	position:absolute;
+	left:115px;
+	height:30px;
+	font-family:MyriadBold;
+	font-size:12pt;
+	top:70px;
+}
+
+#favoritesbutton {
+	left:20px;
+	position:relative;
+	top:65px;
+	height:40px;
+	width:155px;
+	background-image:url(../images/favorites_button.png);
+	background-repeat:no-repeat;
+}
+
+#emailimg {
+	position:relative;
+	top:5px;
+	left:10px;
+	width:47px;
+	height:38px;
+	background: url(../images/mail_icon.png) no-repeat;
+	background-size: 75% 75%;
+}
+
+#phoneimg {
+	position:relative;
+	background: url(../images/phone_icon.png) no-repeat;
+	background-size: 75% 75%;
+	width:47px;
+	height:38px;
+	top:5px;
+	left:10px;
+}
+
+#email {
+	position:relative;
+	left:20px;
+	width:572px;
+	top:47px;
+	height:40px;
+	background-color:#CCCCCC;
+	-webkit-border-bottom-left-radius:4px;
+	border-bottom-left-radius:4px;
+	-o-border-bottom-left-radius:4px;
+	-ms-border-bottom-left-radius:4px;
+	-moz-border-radius-bottomleft:4px;
+	-webkit-border-bottom-right-radius:4px;
+	border-bottom-right-radius:4px;
+	-o-border-bottom-right-radius:4px;
+	-ms-border-bottom-right-radius:4px;
+	-moz-border-radius-bottomright:4px;
+}
+
+#phone {
+	position:relative;
+	top:45px;
+	left:20px;
+	width:572px;
+	height:40px;
+	background-color:#CCCCCC;
+	-webkit-border-top-left-radius:4px;
+	border-top-left-radius:4px;
+	-o-border-top-left-radius:4px;
+	-ms-border-top-left-radius:4px;
+	-moz-border-radius-topleft:4px;
+	-webkit-border-top-right-radius:4px;
+	border-top-right-radius:4px;
+	-o-border-top-right-radius:4px;
+	-ms-border-top-right-radius:4px;
+	-moz-border-radius-topright:4px;
+}
+
+#placeholder {
+	position:relative;
+	left:4px;
+	width:91px;
+	height:133px;
+	background-image:url(../images/photo_placeholder.png);
+	top:15px;
+}
+
+#photoholder {
+	position:relative;
+	height:148px;
+	background-color:#CCCCCC;
+	-webkit-border-bottom-left-radius:4px;
+	border-bottom-left-radius:4px;
+	-o-border-bottom-left-radius:4px;
+	-ms-border-bottom-left-radius:4px;
+	-moz-border-radius-bottomleft:4px;
+	-webkit-border-bottom-right-radius:4px;
+	border-bottom-right-radius:4px;
+	-o-border-bottom-right-radius:4px;
+	-ms-border-bottom-right-radius:4px;
+	-moz-border-radius-bottomright:4px;
+	-webkit-border-top-left-radius:4px;
+	border-top-left-radius:4px;
+	-o-border-top-left-radius:4px;
+	-ms-border-top-left-radius:4px;
+	-moz-border-radius-topleft:4px;
+	-webkit-border-top-right-radius:4px;
+	border-top-right-radius:4px;
+	-o-border-top-right-radius:4px;
+	-ms-border-top-right-radius:4px;
+	-moz-border-radius-topright:4px;
+	width:100px;
+	top:0;
+	left:0;
+}
+
+
+#backbutton {
+	position:relative;
+	left:20px;
+	width:60px;
+	height:30px;
+	background-image:url(../images/back_button.png);
+	top:7px;
+}
+
+#wherebutton {
+	position:absolute;
+	left: 540px;	
+	top:7px;
+	width:30px;
+	height:30px;
+	background: url(../images/where_button_off.png) no-repeat;
+	background-size: 95% 95%;
+}
+
+

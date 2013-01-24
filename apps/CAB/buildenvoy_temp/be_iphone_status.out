@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Cache-Control: private
+Expires: Wed, 31 Dec 1969 18:00:00 CST
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Thu, 08 Nov 2012 09:14:03 GMT
+
+{"state":"COMPLETED","total":27,"current":20,"stage":"Failed"}
